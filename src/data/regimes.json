@@ -1,0 +1,58 @@
+{
+  "regimes": [
+    {
+      "id": "aucun",
+      "nom": "Aucun",
+      "typesProteinesExclus": []
+    },
+    {
+      "id": "vegetarien",
+      "nom": "Végétarien",
+      "typesProteinesExclus": ["viande", "poisson", "crustace", "mollusque"]
+    },
+    {
+      "id": "vegan",
+      "nom": "Végan",
+      "typesProteinesExclus": [
+        "viande",
+        "poisson",
+        "crustace",
+        "mollusque",
+        "oeuf",
+        "fromage"
+      ]
+    },
+    {
+      "id": "pescetarien",
+      "nom": "Pescétarien",
+      "typesProteinesExclus": ["viande"]
+    },
+    {
+      "id": "prefere_viande",
+      "nom": "Préfère la viande",
+      "typesProteinesExclus": ["soja", "seitan"]
+    }
+  ],
+  "restrictions": [
+    {
+      "id": "sans_porc",
+      "nom": "Sans porc",
+      "allergenesExclus": ["porc"]
+    },
+    {
+      "id": "sans_gluten",
+      "nom": "Sans gluten",
+      "allergenesExclus": ["gluten"]
+    },
+    {
+      "id": "sans_lactose",
+      "nom": "Sans lactose",
+      "allergenesExclus": ["lactose"]
+    },
+    {
+      "id": "sans_soja",
+      "nom": "Sans soja",
+      "allergenesExclus": ["soja"]
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+[
+  {
+    "id": "p001",
+    "nom": "Poulet",
+    "origine": "animale",
+    "type": "viande",
+    "allergenes": []
+  },
+  {
+    "id": "p002",
+    "nom": "Dinde",
+    "origine": "animale",
+    "type": "viande",
+    "allergenes": []
+  },
+  {
+    "id": "p004",
+    "nom": "Canard",
+    "origine": "animale",
+    "type": "viande",
+    "allergenes": []
+  },
+  {
+    "id": "p005",
+    "nom": "Lapin",
+    "origine": "animale",
+    "type": "viande",
+    "allergenes": []
+  },
+  {
+    "id": "p006",
+    "nom": "Boeuf",
+    "origine": "animale",
+    "type": "viande",
+    "allergenes": []
+  },
+  {
+    "id": "p007",
+    "nom": "Veau",
+    "origine": "animale",
+    "type": "viande",
+    "allergenes": []
+  },
+  {
+    "id": "p008",
+    "nom": "Porc",
+    "origine": "animale",
+    "type": "viande",
+    "allergenes": ["porc"]
+  },
+  {
+    "id": "p009",
+    "nom": "Agneau",
+    "origine": "animale",
+    "type": "viande",
+    "allergenes": []
+  },
+  {
+    "id": "p017",
+    "nom": "Jambon",
+    "origine": "animale",
+    "type": "viande",
+    "allergenes": ["porc"]
+  },
+  {
+    "id": "p019",
+    "nom": "Lardons",
+    "origine": "animale",
+    "type": "viande",
+    "allergenes": ["porc"]
+  },
+  {
+    "id": "p020",
+    "nom": "Bacon",
+    "origine": "animale",
+    "type": "viande",
+    "allergenes": ["porc"]
+  },
+  {
+    "id": "p021",
+    "nom": "Saucisse",
+    "origine": "animale",
+    "type": "viande",
+    "allergenes": ["porc"]
+  },
+  {
+    "id": "p023",
+    "nom": "Chorizo",
+    "origine": "animale",
+    "type": "viande",
+    "allergenes": ["porc"]
+  },
+  {
+    "id": "p024",
+    "nom": "Boudin",
+    "origine": "animale",
+    "type": "viande",
+    "allergenes": ["porc"]
+  },
+  {
+    "id": "p026",
+    "nom": "Saumon",
+    "origine": "animale",
+    "type": "poisson",
+    "allergenes": ["poisson"]
+  },
+  {
+    "id": "p027",
+    "nom": "Thon",
+    "origine": "animale",
+    "type": "poisson",
+    "allergenes": ["poisson"]
+  },
+  {
+    "id": "p028",
+    "nom": "Poisson blanc",
+    "origine": "animale",
+    "type": "poisson",
+    "allergenes": ["poisson"]
+  },
+  {
+    "id": "p058",
+    "nom": "Crevette",
+    "origine": "animale",
+    "type": "crustace",
+    "allergenes": ["crustaces"]
+  },
+  {
+    "id": "p074",
+    "nom": "Oeuf",
+    "origine": "animale",
+    "type": "oeuf",
+    "allergenes": ["oeuf"]
+  },
+  {
+    "id": "p077",
+    "nom": "Tofu",
+    "origine": "vegetale",
+    "type": "soja",
+    "allergenes": ["soja"]
+  },
+  {
+    "id": "p080",
+    "nom": "Tempeh de soja",
+    "origine": "vegetale",
+    "type": "soja",
+    "allergenes": ["soja"]
+  },
+  {
+    "id": "p081",
+    "nom": "Proteines de soja texturees",
+    "origine": "vegetale",
+    "type": "soja",
+    "allergenes": ["soja"]
+  },
+  {
+    "id": "p082",
+    "nom": "Émincés de soja nature",
+    "origine": "vegetale",
+    "type": "soja",
+    "allergenes": ["soja"]
+  },
+  {
+    "id": "p083",
+    "nom": "Seitan nature",
+    "origine": "vegetale",
+    "type": "seitan",
+    "allergenes": ["gluten"]
+  },
+  {
+    "id": "p085",
+    "nom": "Halloumi",
+    "origine": "animale",
+    "type": "fromage",
+    "allergenes": ["lait", "lactose"]
+  },
+  {
+    "id": "p086",
+    "nom": "Paneer",
+    "origine": "animale",
+    "type": "fromage",
+    "allergenes": ["lait", "lactose"]
+  },
+  {
+    "id": "p087",
+    "nom": "Mozzarella",
+    "origine": "animale",
+    "type": "fromage",
+    "allergenes": ["lait", "lactose"]
+  },
+  {
+    "id": "p088",
+    "nom": "Feta",
+    "origine": "animale",
+    "type": "fromage",
+    "allergenes": ["lait", "lactose"]
+  },
+  {
+    "id": "p089",
+    "nom": "Cottage cheese",
+    "origine": "animale",
+    "type": "fromage",
+    "allergenes": ["lait", "lactose"]
+  }
+]

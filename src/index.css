@@ -1,0 +1,142 @@
+/* ========================================
+   CUISINETTE — STYLES GLOBAUX
+======================================== */
+
+:root {
+  font: 18px/145% var(--sans);
+  letter-spacing: 0.18px;
+  color-scheme: light;
+  color: var(--text);
+  background: var(--bg);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (max-width: 1024px) {
+  :root {
+    font-size: 16px;
+  }
+}
+
+/* STRUCTURE */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100svh;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--sans);
+}
+
+#root {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  min-height: 100svh;
+}
+
+@media (max-width: 720px) {
+  #root {
+    padding-top: 0;
+  }
+}
+
+/* TYPOGRAPHIES */
+
+h1,
+h2,
+h3 {
+  font-family: var(--heading), cursive;
+  font-weight: 400;
+  color: var(--text-h);
+  line-height: 1.2;
+  font-style: normal;
+  letter-spacing: 0.4px;
+}
+
+h1 {
+  font-size: 45px;
+}
+
+h2 {
+  font-size: 45px;
+  text-align: center;
+  letter-spacing: 0;
+  margin: 0 0 8px;
+}
+
+h3 {
+  font-family: var(--heading2);
+  font-size: 25px;
+  margin: 0 0 8px;
+}
+
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 36px;
+    margin: 20px 0;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+}
+
+p {
+  margin: 0;
+}
+
+/* FORMULAIRES ET BOUTONS */
+
+button,
+input,
+select,
+textarea {
+  font-family: var(--sans);
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid var(--pink);
+  outline-offset: 3px;
+}
+
+input[type="checkbox"] {
+  accent-color: var(--green);
+}
+
+/* CODE */
+
+code {
+  font-family: var(--mono);
+  display: inline-flex;
+  border-radius: 4px;
+  color: var(--text-h);
+}
+
+code {
+  font-size: 15px;
+  line-height: 135%;
+  padding: 4px 8px;
+  background: var(--code-bg);
+}

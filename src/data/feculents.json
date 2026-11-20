@@ -1,0 +1,182 @@
+[
+  {
+    "id": "f001",
+    "nom": "Riz",
+    "type": "riz",
+    "allergenes": []
+  },
+  {
+    "id": "f011",
+    "nom": "Pâtes de blé",
+    "type": "cereale_gluten",
+    "allergenes": ["gluten"]
+  },
+  {
+    "id": "f012",
+    "nom": "Pâtes de de légumineuses",
+    "type": "cereale_gluten",
+    "allergenes": ["gluten"]
+  },
+  {
+    "id": "f019",
+    "nom": "Lasagnes",
+    "type": "cereale_gluten",
+    "allergenes": ["gluten"]
+  },
+  {
+    "id": "f021",
+    "nom": "Nouilles",
+    "type": "cereale_gluten",
+    "allergenes": ["gluten"]
+  },
+  {
+    "id": "f024",
+    "nom": "Semoule",
+    "type": "cereale_gluten",
+    "allergenes": ["gluten"]
+  },
+  {
+    "id": "f025",
+    "nom": "Boulgour",
+    "type": "cereale_gluten",
+    "allergenes": ["gluten"]
+  },
+  {
+    "id": "f026",
+    "nom": "Blé précuit",
+    "type": "cereale_gluten",
+    "allergenes": ["gluten"]
+  },
+  {
+    "id": "f034",
+    "nom": "Quinoa",
+    "type": "cereale_sans_gluten",
+    "allergenes": []
+  },
+  {
+    "id": "f044",
+    "nom": "Maïs en grains",
+    "type": "cereale_sans_gluten",
+    "allergenes": []
+  },
+  {
+    "id": "f045",
+    "nom": "Polenta",
+    "type": "cereale_sans_gluten",
+    "allergenes": []
+  },
+  {
+    "id": "f046",
+    "nom": "Semoule de maïs",
+    "type": "cereale_sans_gluten",
+    "allergenes": []
+  },
+  {
+    "id": "f050",
+    "nom": "Flocons d'avoine",
+    "type": "cereale_gluten",
+    "allergenes": ["gluten"]
+  },
+  {
+    "id": "f060",
+    "nom": "Pommes de terre",
+    "type": "tubercule",
+    "allergenes": []
+  },
+  {
+    "id": "f062",
+    "nom": "Patates douces",
+    "type": "tubercule",
+    "allergenes": []
+  },
+  {
+    "id": "f068",
+    "nom": "Lentilles",
+    "type": "legumineuse",
+    "allergenes": []
+  },
+  {
+    "id": "f069",
+    "nom": "Lentilles corail",
+    "type": "legumineuse",
+    "allergenes": []
+  },
+  {
+    "id": "f074",
+    "nom": "Pois chiches",
+    "type": "legumineuse",
+    "allergenes": []
+  },
+  {
+    "id": "f075",
+    "nom": "Pois cassés",
+    "type": "legumineuse",
+    "allergenes": []
+  },
+  {
+    "id": "f077",
+    "nom": "Haricots rouges",
+    "type": "legumineuse",
+    "allergenes": []
+  },
+  {
+    "id": "f078",
+    "nom": "Haricots blancs",
+    "type": "legumineuse",
+    "allergenes": []
+  },
+  {
+    "id": "f082",
+    "nom": "Haricots mungo",
+    "type": "legumineuse",
+    "allergenes": []
+  },
+  {
+    "id": "f084",
+    "nom": "Haricots flageolets",
+    "type": "legumineuse",
+    "allergenes": []
+  },
+  {
+    "id": "f088",
+    "nom": "Fèves",
+    "type": "legumineuse",
+    "allergenes": []
+  },
+  {
+    "id": "f094",
+    "nom": "Petits pois",
+    "type": "legumineuse",
+    "allergenes": []
+  },
+  {
+    "id": "f095",
+    "nom": "Pain",
+    "type": "pain",
+    "allergenes": ["gluten"]
+  },
+  {
+    "id": "f098",
+    "nom": "Pain pita",
+    "type": "pain",
+    "allergenes": ["gluten"]
+  },
+  {
+    "id": "f099",
+    "nom": "Tortilla de blé",
+    "type": "pain",
+    "allergenes": ["gluten"]
+  },
+  {
+    "id": "f102",
+    "nom": "Tortilla de maïs 100 %",
+    "type": "pain_sans_gluten",
+    "allergenes": []
+  },
+  {
+    "id": "f103",
+    "nom": "Galette de sarrasin 100 %",
+    "type": "pain_sans_gluten",
+    "allergenes": []
+  }
+]

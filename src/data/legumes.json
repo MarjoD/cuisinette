@@ -1,0 +1,266 @@
+[
+  {
+    "id": "l001",
+    "nom": "Carotte",
+    "mois": [1, 2, 3, 10, 11, 12],
+    "allergenes": []
+  },
+  {
+    "id": "l002",
+    "nom": "Panais",
+    "mois": [1, 2, 3, 10, 11, 12],
+    "allergenes": []
+  },
+  {
+    "id": "l003",
+    "nom": "Betterave",
+    "mois": [1, 2, 3, 10, 11, 12],
+    "allergenes": []
+  },
+  {
+    "id": "l004",
+    "nom": "Navet",
+    "mois": [1, 2, 3, 10, 11, 12],
+    "allergenes": []
+  },
+  {
+    "id": "l006",
+    "nom": "Céleri-rave",
+    "mois": [1, 2, 3, 10, 11, 12],
+    "allergenes": []
+  },
+  {
+    "id": "l007",
+    "nom": "Radis noir",
+    "mois": [1, 2, 3, 10, 11, 12],
+    "allergenes": []
+  },
+  {
+    "id": "l008",
+    "nom": "Salsifis",
+    "mois": [1, 2, 3, 10, 11, 12],
+    "allergenes": []
+  },
+  {
+    "id": "l010",
+    "nom": "Poireau",
+    "mois": [1, 2, 3, 4, 9, 10, 11, 12],
+    "allergenes": []
+  },
+  {
+    "id": "l011",
+    "nom": "Chou blanc",
+    "mois": [1, 2, 3, 10, 11, 12],
+    "allergenes": []
+  },
+  {
+    "id": "l012",
+    "nom": "Chou rouge",
+    "mois": [1, 2, 3, 10, 11, 12],
+    "allergenes": []
+  },
+  {
+    "id": "l013",
+    "nom": "Chou vert",
+    "mois": [1, 2, 3, 10, 11, 12],
+    "allergenes": []
+  },
+  {
+    "id": "l016",
+    "nom": "Chou de Bruxelles",
+    "mois": [1, 2, 3, 10, 11, 12],
+    "allergenes": []
+  },
+  {
+    "id": "l017",
+    "nom": "Chou-fleur",
+    "mois": [1, 2, 3, 10, 11, 12],
+    "allergenes": []
+  },
+  {
+    "id": "l018",
+    "nom": "Brocoli",
+    "mois": [5, 6, 7, 8, 9, 10, 11],
+    "allergenes": []
+  },
+  {
+    "id": "l019",
+    "nom": "Chou romanesco",
+    "mois": [9, 10, 11, 12],
+    "allergenes": []
+  },
+  {
+    "id": "l020",
+    "nom": "Epinards",
+    "mois": [1, 2, 3, 4, 5, 9, 10, 11, 12],
+    "allergenes": []
+  },
+  {
+    "id": "l021",
+    "nom": "Mâche",
+    "mois": [1, 2, 3, 10, 11, 12],
+    "allergenes": []
+  },
+  {
+    "id": "l022",
+    "nom": "Endive",
+    "mois": [1, 2, 3, 4, 10, 11, 12],
+    "allergenes": []
+  },
+  {
+    "id": "l023",
+    "nom": "Blette",
+    "mois": [4, 5, 6, 7, 8, 9, 10, 11],
+    "allergenes": []
+  },
+  {
+    "id": "l025",
+    "nom": "Asperge",
+    "mois": [3, 4, 5, 6],
+    "allergenes": []
+  },
+  {
+    "id": "l028",
+    "nom": "Artichaut",
+    "mois": [5, 6, 7, 8, 9],
+    "allergenes": []
+  },
+  {
+    "id": "l029",
+    "nom": "Radis",
+    "mois": [3, 4, 5, 6, 7, 8, 9, 10],
+    "allergenes": []
+  },
+  {
+    "id": "l032",
+    "nom": "Salade",
+    "mois": [4, 5, 6, 7, 8, 9, 10],
+    "allergenes": []
+  },
+  {
+    "id": "l039",
+    "nom": "Concombre",
+    "mois": [5, 6, 7, 8, 9],
+    "allergenes": []
+  },
+  {
+    "id": "l040",
+    "nom": "Cornichon frais",
+    "mois": [6, 7, 8, 9],
+    "allergenes": []
+  },
+  {
+    "id": "l041",
+    "nom": "Courgette",
+    "mois": [5, 6, 7, 8, 9, 10],
+    "allergenes": []
+  },
+  {
+    "id": "l044",
+    "nom": "Aubergine",
+    "mois": [6, 7, 8, 9, 10],
+    "allergenes": []
+  },
+  {
+    "id": "l046",
+    "nom": "Tomate",
+    "mois": [6, 7, 8, 9, 10],
+    "allergenes": []
+  },
+  {
+    "id": "l051",
+    "nom": "Poivron",
+    "mois": [6, 7, 8, 9, 10],
+    "allergenes": []
+  },
+  {
+    "id": "l055",
+    "nom": "Piment doux",
+    "mois": [6, 7, 8, 9, 10],
+    "allergenes": []
+  },
+  {
+    "id": "l056",
+    "nom": "Fenouil",
+    "mois": [5, 6, 7, 8, 9, 10, 11],
+    "allergenes": []
+  },
+  {
+    "id": "l057",
+    "nom": "Céleri branche",
+    "mois": [6, 7, 8, 9, 10, 11],
+    "allergenes": []
+  },
+  {
+    "id": "l058",
+    "nom": "Haricots verts",
+    "mois": [6, 7, 8, 9, 10],
+    "allergenes": []
+  },
+  {
+    "id": "l059",
+    "nom": "Haricots beurre",
+    "mois": [6, 7, 8, 9, 10],
+    "allergenes": []
+  },
+  {
+    "id": "l060",
+    "nom": "Haricots plats",
+    "mois": [6, 7, 8, 9, 10],
+    "allergenes": []
+  },
+  {
+    "id": "l061",
+    "nom": "Pois gourmands",
+    "mois": [4, 5, 6, 7],
+    "allergenes": []
+  },
+  {
+    "id": "l064",
+    "nom": "Oignon",
+    "mois": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "allergenes": []
+  },
+  {
+    "id": "l065",
+    "nom": "Oignon rouge",
+    "mois": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "allergenes": []
+  },
+  {
+    "id": "l069",
+    "nom": "Potiron",
+    "mois": [1, 2, 3, 9, 10, 11, 12],
+    "allergenes": []
+  },
+  {
+    "id": "l070",
+    "nom": "Potimarron",
+    "mois": [1, 2, 3, 9, 10, 11, 12],
+    "allergenes": []
+  },
+  {
+    "id": "l071",
+    "nom": "Courge butternut",
+    "mois": [1, 2, 3, 9, 10, 11, 12],
+    "allergenes": []
+  },
+  {
+    "id": "l072",
+    "nom": "Courge",
+    "mois": [1, 2, 3, 9, 10, 11, 12],
+    "allergenes": []
+  },
+  {
+    "id": "l078",
+    "nom": "Champignons",
+    "mois": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "allergenes": []
+  },
+  {
+    "id": "l087",
+    "nom": "Chou chinois (pak choï)",
+    "mois": [5, 6, 7, 8, 9, 10, 11],
+    "allergenes": []
+  }
+]

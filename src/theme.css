@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Shrikhand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Modak&display=swap");
+
+/* ========================================
+   CUISINETTE — DESIGN TOKENS
+   Thème actuel : CLAIR + PSYCHÉ
+======================================== */
+
+:root {
+  /* Palette de marque */
+  --cream: #fff0cd;
+  --orange: #ff641c;
+  --yellow: #ffc928;
+  --pink: #ff3997;
+  --green: #a4d936;
+  --plum: #4b103c;
+
+  /* Surfaces */
+  --color-bg: var(--cream);
+  --color-surface: #fff9e9;
+
+  /* Texte et contours */
+  --color-text: var(--plum);
+  --color-border: var(--plum);
+
+  /* Actions */
+  --color-primary: var(--orange);
+  --color-primary-text: #ffffff;
+
+  /* Catégories */
+  --color-proteine: #ffb3d4;
+  --color-feculent: #ffe18a;
+  --color-legume: #c8e98c;
+
+  /* Typographies */
+  --font-title2: "Shrikhand", Georgia, serif;
+  --font-title: "Modak", Georgia, serif;
+  --font-body: "Fredoka", sans-serif;
+
+  /* Compatibilité avec les CSS existants */
+  --text: var(--color-text);
+  --text-h: var(--color-text);
+  --bg: var(--color-bg);
+  --border: var(--color-border);
+  --code-bg: var(--color-surface);
+  --accent: var(--color-primary);
+  --accent-bg: #ffe0bf;
+  --accent-border: var(--orange);
+  --social-bg: var(--color-surface);
+
+  --sans: var(--font-body);
+  --heading: var(--font-title);
+  --heading2: var(--font-title2);
+  --mono: ui-monospace, Consolas, monospace;
+
+  --shadow:
+    rgba(75, 16, 60, 0.14) 0 10px 15px -3px,
+    rgba(75, 16, 60, 0.08) 0 4px 6px -2px;
+}

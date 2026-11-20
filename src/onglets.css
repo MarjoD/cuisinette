@@ -1,0 +1,182 @@
+/* ========================================
+   CUISINETTE — NAVIGATION GROOVY
+======================================== */
+
+/* ONGLET PRINCIPAL */
+
+.onglets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.85rem;
+
+  margin: 1.5rem 0 2.5rem;
+  padding: 0;
+
+  border: none;
+}
+
+/* BOUTONS DES ÉTAPES */
+
+.onglets button {
+  appearance: none;
+
+  padding: 0.85rem 1.5rem;
+
+  border: 2px solid var(--plum);
+  border-radius: 999px;
+
+  background: #fff9e9;
+  color: var(--plum);
+
+  font-family: var(--sans);
+  font-size: 1rem;
+  font-weight: 600;
+
+  box-shadow: 4px 4px 0 var(--plum);
+
+  cursor: pointer;
+
+  transition:
+    background 150ms ease,
+    transform 150ms ease,
+    box-shadow 150ms ease;
+}
+
+/* SURVOL */
+
+.onglets button:not(:disabled):not(.actif):hover {
+  background: var(--yellow);
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0 var(--plum);
+}
+
+/* ONGLET ACTIF */
+
+.onglets button.actif {
+  background: var(--orange);
+  color: #fff;
+  border-color: var(--plum);
+
+  font-weight: 700;
+
+  box-shadow: 4px 4px 0 var(--pink);
+}
+
+/* ONGLET INDISPONIBLE */
+
+.onglets button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+/* ACCESSIBILITÉ */
+
+.onglets button:focus-visible,
+.onglets-suivant:focus-visible,
+.nouveau-planning-actions button:focus-visible {
+  outline: 3px solid var(--pink);
+  outline-offset: 4px;
+}
+
+/* ========================================
+   BOUTON ÉTAPE SUIVANTE
+======================================== */
+
+.onglets-suivant {
+  display: block;
+
+  margin: 2rem auto;
+  padding: 0.95rem 1.75rem;
+
+  border: 2px solid var(--plum);
+  border-radius: 999px;
+
+  background: var(--pink);
+  color: var(--plum);
+
+  font-family: var(--sans);
+  font-size: 1rem;
+  font-weight: 700;
+
+  box-shadow: 4px 4px 0 var(--plum);
+
+  cursor: pointer;
+
+  transition:
+    transform 150ms ease,
+    box-shadow 150ms ease;
+}
+
+.onglets-suivant:not(:disabled):hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0 var(--plum);
+}
+
+.onglets-suivant:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+/* ========================================
+   NOUVEAU PLANNING
+======================================== */
+
+.nouveau-planning-actions {
+  display: flex;
+  justify-content: center;
+
+  margin: 3rem 0 1rem;
+  padding-top: 1.5rem;
+
+  border-top: 2px dashed var(--plum);
+}
+
+.nouveau-planning-actions button {
+  padding: 0.8rem 1.5rem;
+
+  border: 2px solid var(--plum);
+  border-radius: 999px;
+
+  background: #fff9e9;
+  color: var(--plum);
+
+  font-family: var(--sans);
+  font-size: 0.95rem;
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+.nouveau-planning-actions button:hover {
+  background: var(--yellow);
+}
+
+/* ========================================
+   RESPONSIVE
+======================================== */
+
+@media (max-width: 600px) {
+  .onglets {
+    gap: 0.65rem;
+  }
+
+  .onglets button {
+    flex: 1 1 100%;
+    padding: 0.75rem 1rem;
+    font-size: 0.95rem;
+  }
+
+  .onglets-suivant {
+    width: 100%;
+    max-width: 360px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .onglets button,
+  .onglets-suivant {
+    transition: none;
+  }
+}
